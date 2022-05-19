@@ -7,6 +7,7 @@ import { Product } from '../products';
   styleUrls: ['./product-alerts.component.css'],
 })
 export class ProductAlertsComponent implements OnInit {
+  @Input() product!: Product;
   constructor() {}
 
   ngOnInit() {}
