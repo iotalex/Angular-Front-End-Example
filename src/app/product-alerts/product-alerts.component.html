@@ -1,3 +1,5 @@
+<!-- The new product alert component takes a product as input from the product list. With that input, it shows or hides the Notify Me button, based on the price of the product. The Phone XL price is over $700, so the Notify Me button appears on that product. -->
+
 <p *ngIf="product && product.price > 700">
   <button type="button">Notify Me</button>
 </p>
