@@ -6,6 +6,7 @@ import { Product } from '../products';
   templateUrl: './product-alerts.component.html',
   styleUrls: ['./product-alerts.component.css'],
 })
+//Pass data to a parent component
 
 // onfiguring ProductAlertsComponent with an @Output() allows the ProductAlertsComponent to emit an event when the value of the notify property changes.
 export class ProductAlertsComponent {
