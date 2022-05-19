@@ -11,6 +11,7 @@
 
   <!-- add the <app-product-alerts> element to product-list.component.html. Pass the current product as input to the component using property binding. -->
   <button type="button" (click)="share()">Share</button>
-
-  <app-product-alerts [product]="product"> </app-product-alerts>
+  <!-- //buttons for the actions notify and share  -->
+  <app-product-alerts [product]="product" (notify)="onNotify()">
+  </app-product-alerts>
 </div>
