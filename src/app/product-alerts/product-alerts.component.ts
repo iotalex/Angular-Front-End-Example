@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { Product } from '../products';
 
 @Component({
   selector: 'app-product-alerts',
@@ -8,7 +9,5 @@ import { Component, OnInit } from '@angular/core';
 export class ProductAlertsComponent implements OnInit {
   constructor() {}
 
-  ngOnInit(): void {}
+  ngOnInit() {}
 }
-
-//left off here 5-19-22 To set up ProductAlertsComponent to receive product data,
