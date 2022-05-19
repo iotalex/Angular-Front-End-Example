@@ -14,5 +14,3 @@ export class ProductListComponent {
     window.alert('The product has been shared!');
   }
 }
-//**testing repo push */
-//**testing repo push 2X */
